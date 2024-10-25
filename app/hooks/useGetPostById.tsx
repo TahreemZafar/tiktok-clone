@@ -22,7 +22,7 @@ export default async function useGetPostById( id: string ) {
                 text: post.text,
                 created_at: post.created_at,
                 profile: {
-                    user_id: profile.userId,
+                    user_id: profile.user_id,
                     name: profile.name,
                     image: profile.image
                   }
